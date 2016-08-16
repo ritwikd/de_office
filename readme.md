@@ -1,6 +1,6 @@
 # de_office
 
-This is a map for the VALVE online shooter Counter-Strike: Global Offinsive. It is based on the map cs_office but was rebuild from scratch with a complete unique layout. There are parts in this map which can be recognized so that the spirit of the great map cs_office has been preserved.
+This is a map for the VALVE online shooter Counter-Strike: Global Offensive. It is based on the map cs_office but was rebuild from scratch with a complete unique layout. There are parts in this map which can be recognized so that the spirit of the great map cs_office has been preserved.
 
 ## Contributing
 
