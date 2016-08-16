@@ -1,0 +1,200 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7083"
+	"mapversion" "3"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "3"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_dust"
+}
+entity
+{
+	"id" "2"
+	"classname" "env_wind"
+	"angles" "0 0 0"
+	"gustdirchange" "20"
+	"gustduration" "5"
+	"maxgust" "15"
+	"maxgustdelay" "20"
+	"maxwind" "10"
+	"mingust" "10"
+	"mingustdelay" "10"
+	"minwind" "5"
+	"origin" "8 16 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "light_environment"
+	"_ambient" "160 172 201 650"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_AmbientScaleHDR" "1"
+	"_light" "221 238 255 900"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"angles" "0 285 0"
+	"pitch" "-45"
+	"SunSpreadAngle" "5"
+	"origin" "-9 16 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "env_sun"
+	"angles" "0 285 0"
+	"HDRColorScale" "1.0"
+	"material" "sprites/light_glow02_add_noz"
+	"overlaycolor" "0 0 0"
+	"overlaymaterial" "sprites/light_glow02_add_noz"
+	"overlaysize" "-1"
+	"pitch" "-45"
+	"rendercolor" "218 242 254"
+	"size" "24"
+	"target" "sun"
+	"use_angles" "1"
+	"origin" "-26 16 -16"
+	editor
+	{
+		"color" "255 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "info_map_parameters"
+	"angles" "0 0 0"
+	"bombradius" "500"
+	"botmaxvisiondistance" "-1"
+	"hostagecount" "2"
+	"petpopulation" "0"
+	"origin" "-43 16 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "env_fog_controller"
+	"angles" "0 356 0"
+	"farz" "6000"
+	"fogblend" "0"
+	"fogcolor" "207 207 207"
+	"fogcolor2" "167 167 167"
+	"fogdir" "1 0 0"
+	"fogenable" "1"
+	"fogend" "9500"
+	"foglerptime" "0"
+	"fogmaxdensity" ".6"
+	"fogstart" "0"
+	"spawnflags" "0"
+	"use_angles" "0"
+	"ZoomFogScale" "1"
+	"origin" "-43 16 -33"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "env_tonemap_controller"
+	"targetname" "tonemap_global"
+	"origin" "-26 16 -33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "tonemap_globalSetBloomScale1.10-1"
+		"OnMapSpawn" "tonemap_globalSetAutoExposureMin00-1"
+		"OnMapSpawn" "tonemap_globalSetAutoExposureMax.90-1"
+	}
+	"origin" "-9 16 -33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "16"
+	"classname" "shadow_control"
+	"angles" "45 285 0"
+	"color" "174 179 189"
+	"distance" "75"
+	"origin" "8 16 -33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

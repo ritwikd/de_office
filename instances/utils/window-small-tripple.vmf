@@ -1,0 +1,85 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7083"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_dust"
+}
+entity
+{
+	"id" "152"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "de_office/instances/utils/window-small-unbreakable.vmf"
+	"fixup_style" "0"
+	"origin" "-40 -2 2"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -12268]"
+	}
+}
+entity
+{
+	"id" "173"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "de_office/instances/utils/window-small-unbreakable.vmf"
+	"fixup_style" "0"
+	"origin" "40 -2 2"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -12268]"
+	}
+}
+entity
+{
+	"id" "97"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "de_office/instances/utils/window-small-unbreakable.vmf"
+	"fixup_style" "0"
+	"origin" "0 -2 2"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -12268]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

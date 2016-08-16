@@ -1,0 +1,201 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7083"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_dust"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "10"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "24"
+			"plane" "(0 -53 23) (0 53 23) (4 53 23)"
+			"material" "PLASTER/PLASTER_EXT_15"
+			"uaxis" "[1 0 0 0] 0.0078125"
+			"vaxis" "[0 -1 0 -0.0057373] 0.207031"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23"
+			"plane" "(0 53 -22) (0 -53 -22) (4 -53 -22)"
+			"material" "PLASTER/PLASTER_EXT_15"
+			"uaxis" "[1 0 0 0] 0.0078125"
+			"vaxis" "[0 -1 0 -0.0057373] 0.207031"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(0 -53 -22) (0 53 -22) (0 53 23)"
+			"material" "PLASTER/PLASTER_EXT_15"
+			"uaxis" "[0 1 0 0.0057373] 0.207031"
+			"vaxis" "[0 0 -1 5.68799] 0.0878906"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(4 53 -22) (4 -53 -22) (4 -53 23)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.207"
+			"vaxis" "[0 0 -1 6] 0.088"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(0 53 -22) (4 53 -22) (4 53 23)"
+			"material" "PLASTER/PLASTER_EXT_15"
+			"uaxis" "[1 0 0 0] 0.0078125"
+			"vaxis" "[0 0 -1 5.68799] 0.0878906"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19"
+			"plane" "(4 -53 -22) (0 -53 -22) (0 -53 23)"
+			"material" "PLASTER/PLASTER_EXT_15"
+			"uaxis" "[1 0 0 0] 0.0078125"
+			"vaxis" "[0 0 -1 5.68799] 0.0878906"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "30"
+			"plane" "(-4 -58 28) (-4 58 28) (0 58 28)"
+			"material" "PLASTER/PLASTERCEILING_INT_01"
+			"uaxis" "[1 0 0 0] 0.00390625"
+			"vaxis" "[0 -1 0 -384] 0.453125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-4 58 -27) (-4 -58 -27) (0 -58 -27)"
+			"material" "PLASTER/PLASTERCEILING_INT_01"
+			"uaxis" "[1 0 0 0] 0.00390625"
+			"vaxis" "[0 -1 0 -384] 0.453125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-4 -58 -27) (-4 58 -27) (-4 58 28)"
+			"material" "PLASTER/PLASTERCEILING_INT_01"
+			"uaxis" "[0 1 0 -127.981] 0.113281"
+			"vaxis" "[0 0 -1 386.33] 0.214844"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(0 58 -27) (0 -58 -27) (0 -58 28)"
+			"material" "PLASTER/PLASTERCEILING_INT_01"
+			"uaxis" "[0 1 0 -127.981] 0.113281"
+			"vaxis" "[0 0 -1 386.33] 0.214844"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(-4 58 -27) (0 58 -27) (0 58 28)"
+			"material" "PLASTER/PLASTERCEILING_INT_01"
+			"uaxis" "[1 0 0 0] 0.00390625"
+			"vaxis" "[0 0 -1 386.33] 0.214844"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(0 -58 -27) (-4 -58 -27) (-4 -58 28)"
+			"material" "PLASTER/PLASTERCEILING_INT_01"
+			"uaxis" "[1 0 0 0] 0.00390625"
+			"vaxis" "[0 0 -1 386.33] 0.214844"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
